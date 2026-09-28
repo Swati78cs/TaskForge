@@ -1,0 +1,17 @@
+{
+  "name": "taskforge",
+  "version": "1.0.0",
+  "description": "TaskForge - Distributed Background Job Scheduling & Execution Platform",
+  "main": "server/src/server.js",
+  "scripts": {
+    "start:server": "cd server && npm start",
+    "dev:server": "cd server && npm run dev",
+    "dev:worker": "cd server && npm run worker",
+    "dev:scheduler": "cd server && npm run scheduler",
+    "dev:client": "cd client && npm run dev",
+    "test:server": "cd server && npm test"
+  },
+  "keywords": ["distributed", "background-jobs", "bullmq", "redis", "mongodb", "express", "react"],
+  "author": "TaskForge Architect",
+  "license": "MIT"
+}
